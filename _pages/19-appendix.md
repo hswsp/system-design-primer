@@ -110,7 +110,7 @@ Notes
 > 关于现实中真实的系统是怎么设计的文章。
 
 <p align="center">
-  <img src="assets/img/TcUo2fw.png">
+  <img src="{{ site.baseurl }}/assets/img/TcUo2fw.png">
   <br/>
   <strong><a href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">Source: Twitter timelines at scale</a></strong>
 </p>

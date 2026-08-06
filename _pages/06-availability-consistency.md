@@ -11,7 +11,7 @@ layout: post
 ### CAP 理论
 
 <p align="center">
-  <img src="assets/img/bgLMI2u.png">
+  <img src="{{ site.baseurl }}/assets/img/bgLMI2u.png">
   <br/>
   <strong><a href="http://robertgreiner.com/2014/08/cap-theorem-revisited">来源：再看 CAP 理论</a></strong>
 </p>

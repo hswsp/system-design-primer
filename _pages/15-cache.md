@@ -9,7 +9,7 @@ layout: post
 ## 缓存
 
 <p align="center">
-  <img src="assets/img/Q6z24La.png">
+  <img src="{{ site.baseurl }}/assets/img/Q6z24La.png">
   <br/>
   <strong><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">资料来源：可扩展的系统设计模式</a></strong>
 </p>
@@ -80,7 +80,7 @@ Redis 有下列附加功能：
 #### 缓存模式
 
 <p align="center">
-  <img src="assets/img/ONjORqk.png">
+  <img src="{{ site.baseurl }}/assets/img/ONjORqk.png">
   <br/>
   <strong><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">资料来源：从缓存到内存数据网格</a></strong>
 </p>
@@ -116,7 +116,7 @@ def get_user(self, user_id):
 #### 直写模式
 
 <p align="center">
-  <img src="assets/img/0vBc0hN.png">
+  <img src="{{ site.baseurl }}/assets/img/0vBc0hN.png">
   <br/>
   <strong><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">资料来源：可扩展性、可用性、稳定性、模式</a></strong>
 </p>
@@ -151,7 +151,7 @@ def set_user(user_id, values):
 #### 回写模式
 
 <p align="center">
-  <img src="assets/img/rgSrvjG.png">
+  <img src="{{ site.baseurl }}/assets/img/rgSrvjG.png">
   <br/>
   <strong><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">资料来源：可扩展性、可用性、稳定性、模式</a></strong>
 </p>
@@ -169,7 +169,7 @@ def set_user(user_id, values):
 #### 刷新
 
 <p align="center">
-  <img src="assets/img/kxtjqgE.png">
+  <img src="{{ site.baseurl }}/assets/img/kxtjqgE.png">
   <br/>
   <strong><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>资料来源：从缓存到内存数据网格</a></strong>
 </p>

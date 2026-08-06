@@ -9,7 +9,7 @@ layout: post
 ## 内容分发网络（CDN）
 
 <p align="center">
-  <img src="assets/img/h9TAuGI.jpg">
+  <img src="{{ site.baseurl }}/assets/img/h9TAuGI.jpg">
   <br/>
   <strong><a href="https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/">来源：为什么使用 CDN</a></strong>
 </p>

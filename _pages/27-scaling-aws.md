@@ -78,7 +78,7 @@ Handy conversion guide:
 
 > Outline a high level design with all important components.
 
-![Imgur](http://i.imgur.com/B8LDKD7.png)
+![Imgur](https://i.imgur.com/B8LDKD7.png)
 
 ## Step 3: Design core components
 
@@ -153,7 +153,7 @@ Add a **DNS** such as Route 53 to map the domain to the instance's public IP.
 
 ### Users+
 
-![Imgur](http://i.imgur.com/rrfjMXB.png)
+![Imgur](https://i.imgur.com/rrfjMXB.png)
 
 #### Assumptions
 
@@ -205,7 +205,7 @@ We've been able to address these issues with **Vertical Scaling** so far.  Unfor
 
 ### Users++
 
-![Imgur](http://i.imgur.com/raoFTXM.png)
+![Imgur](https://i.imgur.com/raoFTXM.png)
 
 #### Assumptions
 
@@ -234,7 +234,7 @@ Our **Benchmarks/Load Tests** and **Profiling** show that our single **Web Serve
 
 ### Users+++
 
-![Imgur](http://i.imgur.com/OZCxJr0.png)
+![Imgur](https://i.imgur.com/OZCxJr0.png)
 
 **Note:** **Internal Load Balancers** not shown to reduce clutter
 
@@ -272,7 +272,7 @@ Our **Benchmarks/Load Tests** and **Profiling** show that we are read-heavy (100
 
 ### Users++++
 
-![Imgur](http://i.imgur.com/3X8nmdL.png)
+![Imgur](https://i.imgur.com/3X8nmdL.png)
 
 #### Assumptions
 
@@ -311,7 +311,7 @@ Our **Benchmarks/Load Tests** and **Profiling** show that our traffic spikes dur
 
 ### Users+++++
 
-![Imgur](http://i.imgur.com/jj3A5N8.png)
+![Imgur](https://i.imgur.com/jj3A5N8.png)
 
 **Note:** **Autoscaling** groups not shown to reduce clutter
 

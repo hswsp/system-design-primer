@@ -94,7 +94,7 @@ Handy conversion guide:
 
 > Outline a high level design with all important components.
 
-![Imgur](http://i.imgur.com/E8klrBh.png)
+![Imgur](https://i.imgur.com/E8klrBh.png)
 
 ## Step 3: Design core components
 
@@ -341,7 +341,7 @@ class SpendingByCategory(MRJob):
 
 > Identify and address bottlenecks, given the constraints.
 
-![Imgur](http://i.imgur.com/V5q57vU.png)
+![Imgur](https://i.imgur.com/V5q57vU.png)
 
 **Important: Do not simply jump right into the final design from the initial design!**
 

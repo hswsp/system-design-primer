@@ -9,7 +9,7 @@ layout: post
 ## 通讯
 
 <p align="center">
-  <img src="assets/img/5KeocQs.jpg">
+  <img src="{{ site.baseurl }}/assets/img/5KeocQs.jpg">
   <br/>
   <strong><a href=http://www.escotal.com/osilayer.html>资料来源：OSI 7层模型</a></strong>
 </p>
@@ -44,7 +44,7 @@ HTTP 是依赖于较低级协议（如 **TCP** 和 **UDP**）的应用层协议�
 ### 传输控制协议（TCP）
 
 <p align="center">
-  <img src="assets/img/JdAsdvG.jpg">
+  <img src="{{ site.baseurl }}/assets/img/JdAsdvG.jpg">
   <br/>
   <strong><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">资料来源：如何制作多人游戏</a></strong>
 </p>
@@ -68,7 +68,7 @@ TCP  对于需要高可靠性但时间紧迫的应用程序很有用。比如包
 ### 用户数据报协议（UDP）
 
 <p align="center">
-  <img src="assets/img/yzDrJtA.jpg">
+  <img src="{{ site.baseurl }}/assets/img/yzDrJtA.jpg">
   <br/>
   <strong><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1">资料来源：如何制作多人游戏</a></strong>
 </p>
@@ -97,7 +97,7 @@ UDP 可靠性更低但适合用在网络电话、视频聊天，流媒体和实�
 ### 远程过程调用协议（RPC）
 
 <p align="center">
-  <img src="assets/img/iF4Mkb5.png">
+  <img src="{{ site.baseurl }}/assets/img/iF4Mkb5.png">
   <br/>
   <strong><a href="http://www.puncsky.com/blog/2016/02/14/crack-the-system-design-interview">Source: Crack the system design interview</a></strong>
 </p>

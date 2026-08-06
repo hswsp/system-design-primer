@@ -9,7 +9,7 @@ layout: post
 ## 负载均衡器
 
 <p align="center">
-  <img src="assets/img/h81n9iK.png">
+  <img src="{{ site.baseurl }}/assets/img/h81n9iK.png">
   <br/>
   <strong><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">来源：可扩展的系统设计模式</a></strong>
 </p>

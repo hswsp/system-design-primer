@@ -9,7 +9,7 @@ layout: post
 ## 异步
 
 <p align="center">
-  <img src="assets/img/54GYsSx.png">
+  <img src="{{ site.baseurl }}/assets/img/54GYsSx.png">
   <br/>
   <strong><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>资料来源：可缩放系统构架介绍</a></strong>
 </p>

@@ -93,7 +93,7 @@ layout: post
 
 > 概述一个包括所有重要的组件的高层次设计
 
-![Imgur](http://i.imgur.com/BKsBnmG.png)
+![Imgur](https://i.imgur.com/BKsBnmG.png)
 
 ## 第三步：设计核心组件
 
@@ -247,7 +247,7 @@ class HitCounts(MRJob):
 
 > 给定约束条件，识别和解决瓶颈。
 
-![Imgur](http://i.imgur.com/4edXG0T.png)
+![Imgur](https://i.imgur.com/4edXG0T.png)
 
 **重要提示: 不要简单的从最初的设计直接跳到最终的设计**
 

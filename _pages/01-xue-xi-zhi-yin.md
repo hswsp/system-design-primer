@@ -8,7 +8,7 @@ layout: post
 
 > 基于你面试的时间线（短、中、长）去复习那些推荐的主题。
 
-![Imgur](assets/img/OfVllex.png)
+![Imgur]({{ site.baseurl }}/assets/img/OfVllex.png)
 
 **问：对于面试来说，我需要知道这里的所有知识点吗？**
 

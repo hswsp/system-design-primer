@@ -9,7 +9,7 @@ layout: post
 ## 反向代理（web 服务器）
 
 <p align="center">
-  <img src="assets/img/n41Azff.png">
+  <img src="{{ site.baseurl }}/assets/img/n41Azff.png">
   <br/>
   <strong><a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg">资料来源：维基百科</a></strong>
   <br/>

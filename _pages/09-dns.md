@@ -9,7 +9,7 @@ layout: post
 ## 域名系统
 
 <p align="center">
-  <img src="assets/img/IOyLj4i.jpg">
+  <img src="{{ site.baseurl }}/assets/img/IOyLj4i.jpg">
   <br/>
   <strong><a href="http://www.slideshare.net/srikrupa5/dns-security-presentation-issa">来源：DNS 安全介绍</a></strong>
 </p>

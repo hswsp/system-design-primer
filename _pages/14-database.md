@@ -9,7 +9,7 @@ layout: post
 ## 数据库
 
 <p align="center">
-  <img src="assets/img/Xkm5CXz.png">
+  <img src="{{ site.baseurl }}/assets/img/Xkm5CXz.png">
   <br/>
   <strong><a href="https://www.youtube.com/watch?v=w95murBkYmU">资料来源：扩展你的用户数到第一个一千万</a></strong>
 </p>
@@ -30,7 +30,7 @@ layout: post
 关系型数据库扩展包括许多技术：**主从复制**、**主主复制**、**联合**、**分片**、**非规范化**和 **SQL调优**。
 
 <p align="center">
-  <img src="assets/img/C9ioGtn.png">
+  <img src="{{ site.baseurl }}/assets/img/C9ioGtn.png">
   <br/>
   <strong><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">资料来源：可扩展性、可用性、稳定性、模式</a></strong>
 </p>
@@ -45,7 +45,7 @@ layout: post
 - 参考不利之处：复制中，主从复制和主主复制**共同**的问题。
 
 <p align="center">
-  <img src="assets/img/krAHLGg.png">
+  <img src="{{ site.baseurl }}/assets/img/krAHLGg.png">
   <br/>
   <strong><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">资料来源：可扩展性、可用性、稳定性、模式</a></strong>
 </p>
@@ -80,7 +80,7 @@ layout: post
 #### 联合
 
 <p align="center">
-  <img src="assets/img/U3qV33e.png">
+  <img src="{{ site.baseurl }}/assets/img/U3qV33e.png">
   <br/>
   <strong><a href="https://www.youtube.com/watch?v=w95murBkYmU">资料来源：扩展你的用户数到第一个一千万</a></strong>
 </p>
@@ -102,7 +102,7 @@ layout: post
 #### 分片
 
 <p align="center">
-  <img src="assets/img/wU8x5Id.png">
+  <img src="{{ site.baseurl }}/assets/img/wU8x5Id.png">
   <br/>
   <strong><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">资料来源：可扩展性、可用性、稳定性、模式</a></strong>
 </p>
@@ -246,7 +246,7 @@ MongoDB 和 CouchDB 等一些文档类型存储还提供了类似 SQL 语言的�
 #### 列型存储
 
 <p align="center">
-  <img src="assets/img/n16iOGk.png">
+  <img src="{{ site.baseurl }}/assets/img/n16iOGk.png">
   <br/>
   <strong><a href="http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html">资料来源: SQL 和 NoSQL，一个简短的历史</a></strong>
 </p>
@@ -269,7 +269,7 @@ Google 发布了第一个列型存储数据库 [Bigtable](http://www.read.seas.h
 #### 图数据库
 
 <p align="center">
-  <img src="assets/img/fNcl65g.png">
+  <img src="{{ site.baseurl }}/assets/img/fNcl65g.png">
   <br/>
   <strong><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png"/>资料来源：图数据库</a></strong>
 </p>
@@ -296,7 +296,7 @@ Google 发布了第一个列型存储数据库 [Bigtable](http://www.read.seas.h
 ### SQL 还是 NoSQL
 
 <p align="center">
-  <img src="assets/img/wXGqG5f.png">
+  <img src="{{ site.baseurl }}/assets/img/wXGqG5f.png">
   <br/>
   <strong><a href="https://www.infoq.com/articles/Transition-RDBMS-NoSQL/">资料来源：从 RDBMS 转换到 NoSQL</a></strong>
 </p>
