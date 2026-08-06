@@ -8,23 +8,25 @@
 
 - **Jekyll + GitHub Pages**，GitHub 原生支持，零服务器。
 - `blog` 分支为站点源码分支（已创建）。
-- **主题：al-folio v1.x**（[alshedivat/al-folio](https://github.com/alshedivat/al-folio)）。v1 是 thin starter：运行时应答（布局/样式/插件）以独立版本化插件宝石提供，站点本身只保留内容、配置与数据。
-- 使用 `_posts/` 文章机制，每章一篇文章。
+- **主题：jekyll-gitbook**（[sighingnow/jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook)），适合书/文档站。作为 **remote theme** 使用：`_config.yml` 中写 `remote_theme: sighingnow/jekyll-gitbook`，布局/样式自动拉取，无需复制 `_layouts/`/`_includes/`/`assets/` 运行时文件。
+- 章节用 `_pages` collection 组织（每章一个文件），`collections.pages.sort_by: date` 控制阅读顺序。
+- 主题自带：左侧章节目录、上一章/下一章导航、全文搜索、TOC。
 
 ## 站点结构
 
-采用 al-folio starter 骨架，**精简接入（方案 A）**：删除学术向页面（Publications/CV/Projects/People），只保留博客/主题所需部分。
-
 ```
-_config.yml                 # 站点配置（title、lang: zh-CN、baseurl）
-Gemfile                     # 引入 al-folio 插件宝石
-index.html                  # 首页：文章目录列表
+_config.yml                 # remote_theme + 站点信息 + collections 配置（lang: zh-CN、baseurl）
+Gemfile                     # 本地构建（jekyll + webrick）
+_pages/*.md                 # 每章一个文件（书章节）
 assets/img/                 # 从 images/ 移动过来的图片
-_posts/2026-08-06-*.md      # 每章一篇文章
+404.html                    # 404 页面
 docs/superpowers/specs/     # 本文档
 ```
 
-> 布局/样式由 `al-folio-core` 等插件宝石提供，不从 starter 复制 `_layouts/` 运行时文件。若 `blog` 分支需独立于 al-folio 仓库，则将 starter 的配置与内容骨架并入本仓库，插件通过 `Gemfile` 引用。
+## 部署
+
+- GitHub Pages 原生支持 remote theme，从 `blog` 分支直接构建，无需自定义 Actions 工作流。
+- 站点地址：`https://hswsp.github.io/system-design-primer/`（项目页，`baseurl: /system-design-primer`）。
 
 ## 章节划分（按原顺序，主题在前、例题在后）
 
@@ -93,10 +95,10 @@ docs/superpowers/specs/     # 本文档
 
 ## 数据流 / 构建
 
-1. 将 al-folio starter 骨架并入 `blog` 分支（配置、Gemfile、内容目录），删除学术向页面。
-2. `bundle install`（安装 al-folio 插件宝石）。
-3. `bundle exec jekyll serve` 本地预览。
-4. 推送到 `blog` 分支，GitHub Pages 自动构建。
+1. 创建 `_config.yml`（remote_theme + 站点信息 + `_pages` collection 配置）与 `Gemfile`。
+2. 将 README 内容拆分为 `_pages/*.md` 章节文件。
+3. `bundle install` 后 `bundle exec jekyll serve` 本地预览。
+4. 推送到 `blog` 分支，GitHub Pages 通过 remote theme 自动构建。
 
 ## 错误处理 / 边界
 
@@ -107,5 +109,5 @@ docs/superpowers/specs/     # 本文档
 ## 测试
 
 - `bundle exec jekyll build` 成功，无 Markdown 链接报错。
-- `grep -r "images/" _posts/` 无残留旧路径引用。
+- `grep -r "images/" _pages/` 无残留旧路径引用。
 - 本地 `jekyll serve` 打开首页可正常浏览各章节。
