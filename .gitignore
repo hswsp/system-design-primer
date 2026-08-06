@@ -62,3 +62,8 @@ scratch/
 
 # IPython Notebook templates
 template.ipynb
+# Jekyll build output
+_site/
+.bundle/
+.vendor/
+.jekyll-cache/
