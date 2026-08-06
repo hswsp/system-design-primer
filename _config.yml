@@ -1,0 +1,73 @@
+# Site settings
+title: 系统设计入门
+longtitle: 系统设计入门 - 中文版
+author: hswsp
+email:
+description: >
+  基于 system-design-primer 的系统设计入门中文书站。
+
+version: 1.0
+gitbook_version: 3.2.3
+
+url: 'https://hswsp.github.io'
+baseurl: '/system-design-primer'
+rss: RSS
+
+# Use jekyll-gitbook as remote theme
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+favicon_path: /assets/gitbook/images/favicon.ico
+
+# Markdown
+markdown: kramdown
+kramdown:
+  auto_ids: true
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+syntax_highlighter_style: colorful
+markdown_ext: markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink: /:categories/:year-:month-:day-:title:output_ext
+
+exclude:
+  - _drafts
+  - docs
+  - README.md
+  - README-zh-Hans.md
+  - README-zh-TW.md
+  - README-ja.md
+  - TRANSLATIONS.md
+  - CONTRIBUTING.md
+  - LICENSE.txt
+  - .gitattributes
+  - generate-epub.sh
+  - epub-metadata.yaml
+  - .superpowers
+
+collections:
+  pages:
+    output: true
+    sort_by: date
+    permalink: /:path/
+
+ordered_collections:
+  - pages
+
+page_width: 800px
+
+destination: ./_site
+incremental: false
+regenerate: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
