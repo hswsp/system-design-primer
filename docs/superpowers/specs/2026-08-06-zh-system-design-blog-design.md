@@ -8,19 +8,23 @@
 
 - **Jekyll + GitHub Pages**，GitHub 原生支持，零服务器。
 - `blog` 分支为站点源码分支（已创建）。
-- 使用 `jekyll` 的 `_posts/` 文章机制，每章一篇文章。
+- **主题：al-folio v1.x**（[alshedivat/al-folio](https://github.com/alshedivat/al-folio)）。v1 是 thin starter：运行时应答（布局/样式/插件）以独立版本化插件宝石提供，站点本身只保留内容、配置与数据。
+- 使用 `_posts/` 文章机制，每章一篇文章。
 
 ## 站点结构
 
+采用 al-folio starter 骨架，**精简接入（方案 A）**：删除学术向页面（Publications/CV/Projects/People），只保留博客/主题所需部分。
+
 ```
 _config.yml                 # 站点配置（title、lang: zh-CN、baseurl）
+Gemfile                     # 引入 al-folio 插件宝石
 index.html                  # 首页：文章目录列表
-_layouts/default.html       # 基础布局
-_layouts/post.html          # 文章布局
 assets/img/                 # 从 images/ 移动过来的图片
 _posts/2026-08-06-*.md      # 每章一篇文章
 docs/superpowers/specs/     # 本文档
 ```
+
+> 布局/样式由 `al-folio-core` 等插件宝石提供，不从 starter 复制 `_layouts/` 运行时文件。若 `blog` 分支需独立于 al-folio 仓库，则将 starter 的配置与内容骨架并入本仓库，插件通过 `Gemfile` 引用。
 
 ## 章节划分（按原顺序，主题在前、例题在后）
 
@@ -89,9 +93,10 @@ docs/superpowers/specs/     # 本文档
 
 ## 数据流 / 构建
 
-1. `bundle install`（通过 `Gemfile` 引入 `jekyll` 与 `github-pages`）。
-2. `bundle exec jekyll serve` 本地预览。
-3. 推送到 `blog` 分支，GitHub Pages 自动构建。
+1. 将 al-folio starter 骨架并入 `blog` 分支（配置、Gemfile、内容目录），删除学术向页面。
+2. `bundle install`（安装 al-folio 插件宝石）。
+3. `bundle exec jekyll serve` 本地预览。
+4. 推送到 `blog` 分支，GitHub Pages 自动构建。
 
 ## 错误处理 / 边界
 
