@@ -171,7 +171,7 @@ def set_user(user_id, values):
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/kxtjqgE.png">
   <br/>
-  <strong><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>资料来源：从缓存到内存数据网格</a></strong>
+  <strong><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">资料来源：从缓存到内存数据网格</a></strong>
 </p>
 
 你可以将缓存配置成在到期之前自动刷新最近访问过的内容。

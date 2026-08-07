@@ -11,7 +11,7 @@ layout: post
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/5KeocQs.jpg">
   <br/>
-  <strong><a href=http://www.escotal.com/osilayer.html>资料来源：OSI 7层模型</a></strong>
+  <strong><a href="http://www.escotal.com/osilayer.html">资料来源：OSI 7层模型</a></strong>
 </p>
 
 ### 超文本传输协议（HTTP）
