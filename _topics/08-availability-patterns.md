@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 可用性模式
-
 有两种支持高可用性的模式: **故障切换（fail-over）**和**复制（replication）**。
 
 ### 故障切换

@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 负载均衡器
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/h81n9iK.png">
   <br/>

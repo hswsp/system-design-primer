@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 异步
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/54GYsSx.png">
   <br/>

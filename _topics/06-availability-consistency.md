@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 可用性与一致性
-
 ### CAP 理论
 
 <p align="center">

@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 内容分发网络（CDN）
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/h9TAuGI.jpg">
   <br/>

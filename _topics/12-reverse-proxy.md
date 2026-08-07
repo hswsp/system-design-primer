@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 反向代理（web 服务器）
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/n41Azff.png">
   <br/>

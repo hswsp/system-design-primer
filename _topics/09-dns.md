@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 域名系统
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/IOyLj4i.jpg">
   <br/>

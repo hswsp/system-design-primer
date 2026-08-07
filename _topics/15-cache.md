@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 缓存
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/Q6z24La.png">
   <br/>

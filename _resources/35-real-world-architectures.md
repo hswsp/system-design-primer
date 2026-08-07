@@ -6,8 +6,6 @@ category: 更多资源
 layout: post
 ---
 
-## 真实架构
-
 > 关于现实中真实的系统是怎么设计的文章。
 
 <p align="center">

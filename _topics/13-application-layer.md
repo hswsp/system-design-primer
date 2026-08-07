@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 应用层
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/yB5SYwm.png">
   <br/>

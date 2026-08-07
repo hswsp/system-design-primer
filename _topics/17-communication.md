@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 通讯
-
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/5KeocQs.jpg">
   <br/>

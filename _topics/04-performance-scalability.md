@@ -6,8 +6,6 @@ category: 系统设计主题
 layout: post
 ---
 
-## 性能与可扩展性
-
 如果服务**性能**的增长与资源的增加是成比例的，服务就是可扩展的。通常，提高性能意味着服务于更多的工作单元，另一方面，当数据集增长时，同样也可以处理更大的工作单位。<sup><a href="http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html">1</a></sup>
 
 另一个角度来看待性能与可扩展性:
