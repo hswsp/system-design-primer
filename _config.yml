@@ -69,18 +69,24 @@ collections:
     output: true
     sort_by: date
     permalink: /:collection/:path/
+  resources:
+    output: true
+    sort_by: date
+    permalink: /:collection/:path/
 
 ordered_collections:
   - intro
   - topics
   - interviews
   - oo
+  - resources
 
 collection_titles:
   intro: 入门
   topics: 系统设计主题
   interviews: 系统设计的面试题和解答
   oo: 面向对象设计的面试问题及解答
+  resources: 更多资源
 
 page_width: 800px
 
