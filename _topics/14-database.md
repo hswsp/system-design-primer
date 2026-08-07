@@ -269,7 +269,7 @@ Google 发布了第一个列型存储数据库 [Bigtable](http://www.read.seas.h
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/fNcl65g.png">
   <br/>
-  <strong><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png"/>资料来源：图数据库</a></strong>
+  <strong><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png">资料来源：图数据库</a></strong>
 </p>
 
 > 抽象模型： 图
