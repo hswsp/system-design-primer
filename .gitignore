@@ -67,3 +67,6 @@ _site/
 .bundle/
 .vendor/
 .jekyll-cache/
+
+# macOS
+.DS_Store
