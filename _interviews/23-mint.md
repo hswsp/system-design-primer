@@ -3,7 +3,7 @@ title: 设计 Mint.com
 author: hswsp
 date: 2026-08-06 00:23:00
 category: 系统设计面试题
-layout: post
+layout: home
 ---
 
 ## 题目简介

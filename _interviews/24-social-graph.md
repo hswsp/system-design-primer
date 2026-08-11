@@ -3,7 +3,7 @@ title: 为一个社交网络设计数据结构
 author: hswsp
 date: 2026-08-06 00:24:00
 category: 系统设计面试题
-layout: post
+layout: home
 ---
 
 ## 题目简介

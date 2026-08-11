@@ -3,7 +3,7 @@ title: 安全
 author: hswsp
 date: 2026-08-06 00:18:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 这一部分需要更多内容。一起来吧！

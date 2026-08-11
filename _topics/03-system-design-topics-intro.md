@@ -3,7 +3,7 @@ title: 系统设计主题：从这里开始
 author: hswsp
 date: 2026-08-06 00:03:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 不熟悉系统设计？

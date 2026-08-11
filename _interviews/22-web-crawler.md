@@ -3,7 +3,7 @@ title: 设计一个网页爬虫
 author: hswsp
 date: 2026-08-06 00:22:00
 category: 系统设计面试题
-layout: post
+layout: home
 ---
 
 ## 题目简介

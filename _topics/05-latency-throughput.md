@@ -3,7 +3,7 @@ title: 延迟与吞吐量
 author: hswsp
 date: 2026-08-06 00:05:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 **延迟**是执行操作或运算结果所花费的时间。

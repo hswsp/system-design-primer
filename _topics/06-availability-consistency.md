@@ -3,7 +3,7 @@ title: 可用性与一致性
 author: hswsp
 date: 2026-08-06 00:06:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 ### CAP 理论

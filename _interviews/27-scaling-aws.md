@@ -3,7 +3,7 @@ title: 在 AWS 上设计一个百万用户级别的系统
 author: hswsp
 date: 2026-08-06 00:27:00
 category: 系统设计面试题
-layout: post
+layout: home
 ---
 
 ## 题目简介

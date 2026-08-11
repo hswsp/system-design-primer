@@ -3,7 +3,7 @@ title: 设计 hash map
 author: hswsp
 date: 2026-08-06 00:28:00
 category: 面向对象设计
-layout: post
+layout: home
 ---
 
 ## 题目简介

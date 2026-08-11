@@ -3,7 +3,7 @@ title: 其它的系统设计面试题
 author: hswsp
 date: 2026-08-07 00:00:00
 category: 更多资源
-layout: post
+layout: home
 ---
 
 > 常见的系统设计面试问题，给出了如何解决的方案链接

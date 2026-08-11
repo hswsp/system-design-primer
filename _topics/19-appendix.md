@@ -3,7 +3,7 @@ title: 附录
 author: hswsp
 date: 2026-08-06 00:19:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 一些时候你会被要求做出保守估计。比如，你可能需要估计从磁盘中生成 100 张图片的缩略图需要的时间或者一个数据结构需要多少的内存。**2 的次方表**和**每个开发者都需要知道的一些时间数据**（译注：OSChina 上有这篇文章的[译文](https://www.oschina.net/news/30009/every-programmer-should-know)）都是一些很方便的参考资料。

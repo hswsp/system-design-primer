@@ -3,7 +3,7 @@ title: 设计按类别分类的 Amazon 销售排名
 author: hswsp
 date: 2026-08-06 00:26:00
 category: 系统设计面试题
-layout: post
+layout: home
 ---
 
 ## 题目简介

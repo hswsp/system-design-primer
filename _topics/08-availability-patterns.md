@@ -3,7 +3,7 @@ title: 可用性模式
 author: hswsp
 date: 2026-08-06 00:08:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 有两种支持高可用性的模式: **故障切换（fail-over）**和**复制（replication）**。

@@ -3,7 +3,7 @@ title: 缓存
 author: hswsp
 date: 2026-08-06 00:15:00
 category: 系统设计主题
-layout: post
+layout: home
 ---
 
 <p align="center">

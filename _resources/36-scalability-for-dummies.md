@@ -3,7 +3,7 @@ title: Scalability for Dummies（可扩展性傻瓜教程）
 author: hswsp
 date: 2026-08-10 00:00:00
 category: 更多资源
-layout: post
+layout: home
 ---
 
 > 原文：<https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono>

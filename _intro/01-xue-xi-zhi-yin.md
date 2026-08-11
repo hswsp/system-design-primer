@@ -3,7 +3,7 @@ title: 学习指引
 author: hswsp
 date: 2026-08-06 00:01:00
 category: 学习指引
-layout: post
+layout: home
 ---
 
 > 基于你面试的时间线（短、中、长）去复习那些推荐的主题。

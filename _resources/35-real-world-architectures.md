@@ -3,7 +3,7 @@ title: 真实架构
 author: hswsp
 date: 2026-08-07 00:00:00
 category: 更多资源
-layout: post
+layout: home
 ---
 
 > 关于现实中真实的系统是怎么设计的文章。

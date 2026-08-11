@@ -3,7 +3,7 @@ title: 如何处理一个系统设计的面试题
 author: hswsp
 date: 2026-08-06 00:02:00
 category: 学习指引
-layout: post
+layout: home
 ---
 
 系统设计面试是一个**开放式的对话**。他们期望你去主导这个对话。
