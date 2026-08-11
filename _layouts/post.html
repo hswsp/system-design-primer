@@ -1,0 +1,61 @@
+{% assign found = false %}
+{% assign prev_url = "/" %}
+{% assign prev_title = site.title %}
+{% assign next_url = "" %}
+{% assign next_title = "" %}
+{% for label in site.ordered_collections %}
+    {% for doc in site[label] %}
+        {% if found and next_url == "" %}
+            {% assign next_url = doc.url %}
+            {% assign next_title = doc.title %}
+        {% endif %}
+        {% if doc.url == page.url %}
+            {% assign found = true %}
+        {% else %}
+            {% if found == false %}
+                {% assign prev_url = doc.url %}
+                {% assign prev_title = doc.title %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    <head>
+        {%- include head.html -%}
+    </head>
+    <body>
+        <div class="book">
+
+            {%- include toc-date.html -%}
+
+            <div class="book-body">
+                {%- include top-nav.html -%}
+
+                <div class="body-inner">
+                    {%- include body.html -%}
+
+                    <a href="{{ site.baseurl }}{{ prev_url }}" class="navigation navigation-prev navigation-unique" aria-label="上一页：{{ prev_title | escape }}">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    {% if next_url != "" %}
+                        <a href="{{ site.baseurl }}{{ next_url }}" class="navigation navigation-next navigation-unique" aria-label="下一页：{{ next_title | escape }}">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({%- include metadata-post.json.tpl -%});
+            });
+            </script>
+        </div>
+
+        {%- include footer.html -%}
+
+    </body>
+</html>
