@@ -1,5 +1,5 @@
 ---
-title: Scalability for Dummies（可扩展性傻瓜教程）
+title: Scalability for Dummies
 author: hswsp
 date: 2026-08-10 00:00:00
 category: 更多资源
