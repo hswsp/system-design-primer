@@ -54,7 +54,7 @@ TCP 是通过 [IP 网络](https://en.wikipedia.org/wiki/Internet_Protocol)的面
 
 如果发送者没有收到正确的响应，它将重新发送数据包。如果多次超时，连接就会断开。TCP 实行[流量控制](https://en.wikipedia.org/wiki/Flow_control_(data))和[拥塞控制](https://en.wikipedia.org/wiki/Network_congestion#Congestion_control)。这些确保措施会导致延迟，而且通常导致传输效率比 UDP 低。
 
-为了确保高吞吐量，Web 服务器可以保持大量的 TCP 连接，从而导致高内存使用。在 Web 服务器线程间拥有大量开放连接可能开销巨大，消耗资源过多，也就是说，一个 memcached 服务器。[连接池](https://en.wikipedia.org/wiki/Connection_pool) 可以帮助除了在适用的情况下切换到 UDP。
+为了确保高吞吐量，Web 服务器可以保持大量的 TCP 连接，从而导致高内存使用。在 Web 服务器线程间拥有大量开放连接可能开销巨大，消耗资源过多，也就是说，一个 memcached 服务器。[连接池](https://en.wikipedia.org/wiki/Connection_pool) 可以提供帮助，此外在适用的情况下也可以切换到 UDP。
 
 TCP  对于需要高可靠性但时间紧迫的应用程序很有用。比如包括 Web 服务器，数据库信息，SMTP，FTP 和 SSH。
 
@@ -122,7 +122,7 @@ POST /anotheroperation
 }
 ```
 
-RPC 专注于暴露方法。RPC 通常用于处理内部通讯的性能问题，这样你可以手动处理本地调用以更好的适应你的情况。
+RPC 专注于暴露行为。RPC 经常出于性能原因用于内部通信，因为你可以手工定制原生调用以更好地匹配你的使用场景。
 
 
 当以下情况时选择本地库（也就是 SDK）：
