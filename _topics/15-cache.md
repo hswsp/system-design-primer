@@ -75,7 +75,7 @@ Redis 有下列附加功能：
 
 由于你只能在缓存中存储有限的数据，所以你需要选择一个适用于你用例的缓存更新策略。
 
-#### 缓存模式
+#### Cache-aside
 
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/ONjORqk.png">
@@ -111,7 +111,7 @@ def get_user(self, user_id):
 - 如果数据库中的数据更新了会导致缓存中的数据过时。这个问题需要通过设置 TTL 强制更新缓存或者直写模式来缓解这种情况。
 - 当一个节点出现故障的时候，它将会被一个新的节点替代，这增加了延迟的时间。
 
-#### 直写模式
+#### Write-through
 
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/0vBc0hN.png">
@@ -143,10 +143,10 @@ def set_user(user_id, values):
 
 ##### 直写模式的缺点：
 
-- 由于故障或者缩放而创建的新的节点，新的节点不会缓存，直到数据库更新为止。缓存应用直写模式可以缓解这个问题。
+- 当由于故障或者扩容而创建新的节点时，新的节点不会缓存条目，直到该条目在数据库中被更新为止。Cache-aside 配合 Write-through 可以缓解这个问题。
 - 写入的大多数数据可能永远都不会被读取，用 TTL 可以最小化这种情况的出现。
 
-#### 回写模式
+#### Write-behind (write-back)
 
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/rgSrvjG.png">
@@ -162,9 +162,9 @@ def set_user(user_id, values):
 ##### 回写模式的缺点：
 
 - 缓存可能在其内容成功存储之前丢失数据。
-- 执行直写模式比缓存或者回写模式更复杂。
+- 实现 Write-behind 比实现 Cache-aside 或 Write-through 更复杂。
 
-#### 刷新
+#### Refresh-ahead
 
 <p align="center">
   <img src="{{ site.baseurl }}/assets/img/kxtjqgE.png">
